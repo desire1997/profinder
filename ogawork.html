@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A SIMPLE CALCULATOR</title>
+</head>
+<script>
+	var firstValue;
+	var secondValue;
+	var result;
+function substract() {
+
+firstValue = fv.value;
+secondValue= sv.value;
+result = firstValue - secondValue;
+output.value = result;
+		
+	}	
+
+	function plus() {
+
+firstValue = fv.value;
+secondValue= sv.value;
+result = firstValue ++ secondValue;
+output.value = result;
+		
+	}	
+
+
+	function mul() {
+
+firstValue = fv.value;
+secondValue= sv.value;
+result = firstValue * secondValue;
+output.value = result;
+		
+	}	
+
+	function div() {
+
+firstValue = fv.value;
+secondValue= sv.value;
+result = firstValue / secondValue;
+output.value = result;
+		
+	}	
+
+
+</script>
+<body>
+
+<CENTER>
+	<table>
+		
+		<tr><td>FIRST VALUE: <input type="text" name="" id="fv"></td></tr>
+		<tr><td>SECOND VALUE: <input type="text" name="" id="sv"></td></tr>
+		<tr><td>RESULT:<input type="text" name="" id="output"></td></tr>
+		<tr><td><button onclick="substract()">-</button><button onclick="plus()">+</button><button onclick="mul()">*</button><button onclick="div()">/</button></td></tr>
+
+
+
+	</table>
+
+</CENTER>
+
+
+</body>
+</html>
